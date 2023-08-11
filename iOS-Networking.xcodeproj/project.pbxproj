@@ -16,6 +16,21 @@
 		B1E98BD42A861F920041FB5B /* iOS_NetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E98BD32A861F920041FB5B /* iOS_NetworkingTests.swift */; };
 		B1E98BDE2A861F920041FB5B /* iOS_NetworkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E98BDD2A861F920041FB5B /* iOS_NetworkingUITests.swift */; };
 		B1E98BE02A861F920041FB5B /* iOS_NetworkingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E98BDF2A861F920041FB5B /* iOS_NetworkingUITestsLaunchTests.swift */; };
+		B1E98BEE2A86203D0041FB5B /* CallbackNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E98BED2A86203D0041FB5B /* CallbackNetworkService.swift */; };
+		B1E98BF12A8620870041FB5B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E98BF02A8620870041FB5B /* UserModel.swift */; };
+		B1E98BF42A8620BB0041FB5B /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E98BF32A8620BB0041FB5B /* Protocols.swift */; };
+		B1E98BF72A8621400041FB5B /* CallbackToCallbackAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E98BF62A8621400041FB5B /* CallbackToCallbackAdapter.swift */; };
+		B1E98BF92A86217F0041FB5B /* CallbackToCombineAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E98BF82A86217F0041FB5B /* CallbackToCombineAdapter.swift */; };
+		B1E98BFB2A8621D70041FB5B /* CallbackToAsyncAwaitAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E98BFA2A8621D70041FB5B /* CallbackToAsyncAwaitAdapter.swift */; };
+		B1E98BFF2A8622300041FB5B /* CombineNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E98BFE2A8622300041FB5B /* CombineNetworkService.swift */; };
+		B1E98C022A86226C0041FB5B /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E98C012A86226C0041FB5B /* Enums.swift */; };
+		B1E98C052A8622A10041FB5B /* CombineToCallbackAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E98C042A8622A10041FB5B /* CombineToCallbackAdapter.swift */; };
+		B1E98C072A8622D90041FB5B /* CombineToCombineAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E98C062A8622D90041FB5B /* CombineToCombineAdapter.swift */; };
+		B1E98C092A8622FA0041FB5B /* CombineToAsyncAwaitAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E98C082A8622FA0041FB5B /* CombineToAsyncAwaitAdapter.swift */; };
+		B1E98C0D2A86234C0041FB5B /* AsyncAwaitNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E98C0C2A86234C0041FB5B /* AsyncAwaitNetworkService.swift */; };
+		B1E98C102A86237A0041FB5B /* AsyncAwaitToCallbackAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E98C0F2A86237A0041FB5B /* AsyncAwaitToCallbackAdapter.swift */; };
+		B1E98C122A8623940041FB5B /* AsyncAwaitToCombineAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E98C112A8623940041FB5B /* AsyncAwaitToCombineAdapter.swift */; };
+		B1E98C142A8623BC0041FB5B /* AsyncAwaitToAsyncAwaitAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E98C132A8623BC0041FB5B /* AsyncAwaitToAsyncAwaitAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +64,21 @@
 		B1E98BD92A861F920041FB5B /* iOS-NetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-NetworkingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E98BDD2A861F920041FB5B /* iOS_NetworkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_NetworkingUITests.swift; sourceTree = "<group>"; };
 		B1E98BDF2A861F920041FB5B /* iOS_NetworkingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_NetworkingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B1E98BED2A86203D0041FB5B /* CallbackNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallbackNetworkService.swift; sourceTree = "<group>"; };
+		B1E98BF02A8620870041FB5B /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		B1E98BF32A8620BB0041FB5B /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		B1E98BF62A8621400041FB5B /* CallbackToCallbackAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallbackToCallbackAdapter.swift; sourceTree = "<group>"; };
+		B1E98BF82A86217F0041FB5B /* CallbackToCombineAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallbackToCombineAdapter.swift; sourceTree = "<group>"; };
+		B1E98BFA2A8621D70041FB5B /* CallbackToAsyncAwaitAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallbackToAsyncAwaitAdapter.swift; sourceTree = "<group>"; };
+		B1E98BFE2A8622300041FB5B /* CombineNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineNetworkService.swift; sourceTree = "<group>"; };
+		B1E98C012A86226C0041FB5B /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		B1E98C042A8622A10041FB5B /* CombineToCallbackAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineToCallbackAdapter.swift; sourceTree = "<group>"; };
+		B1E98C062A8622D90041FB5B /* CombineToCombineAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineToCombineAdapter.swift; sourceTree = "<group>"; };
+		B1E98C082A8622FA0041FB5B /* CombineToAsyncAwaitAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineToAsyncAwaitAdapter.swift; sourceTree = "<group>"; };
+		B1E98C0C2A86234C0041FB5B /* AsyncAwaitNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitNetworkService.swift; sourceTree = "<group>"; };
+		B1E98C0F2A86237A0041FB5B /* AsyncAwaitToCallbackAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitToCallbackAdapter.swift; sourceTree = "<group>"; };
+		B1E98C112A8623940041FB5B /* AsyncAwaitToCombineAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitToCombineAdapter.swift; sourceTree = "<group>"; };
+		B1E98C132A8623BC0041FB5B /* AsyncAwaitToAsyncAwaitAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitToAsyncAwaitAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +129,13 @@
 		B1E98BBB2A861F910041FB5B /* iOS-Networking */ = {
 			isa = PBXGroup;
 			children = (
+				B1E98C002A86225F0041FB5B /* Enum */,
+				B1E98BF52A8621270041FB5B /* Adapter */,
+				B1E98BF22A8620A50041FB5B /* Protocol */,
+				B1E98BEF2A8620740041FB5B /* Model */,
+				B1E98BFD2A8622100041FB5B /* Combine Flow */,
+				B1E98C0B2A8623310041FB5B /* Async Await Flow */,
+				B1E98BEC2A861FF90041FB5B /* Callback Flow */,
 				B1E98BBC2A861F910041FB5B /* AppDelegate.swift */,
 				B1E98BBE2A861F910041FB5B /* SceneDelegate.swift */,
 				B1E98BC02A861F910041FB5B /* ViewController.swift */,
@@ -125,6 +162,94 @@
 				B1E98BDF2A861F920041FB5B /* iOS_NetworkingUITestsLaunchTests.swift */,
 			);
 			path = "iOS-NetworkingUITests";
+			sourceTree = "<group>";
+		};
+		B1E98BEC2A861FF90041FB5B /* Callback Flow */ = {
+			isa = PBXGroup;
+			children = (
+				B1E98BED2A86203D0041FB5B /* CallbackNetworkService.swift */,
+			);
+			path = "Callback Flow";
+			sourceTree = "<group>";
+		};
+		B1E98BEF2A8620740041FB5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B1E98BF02A8620870041FB5B /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B1E98BF22A8620A50041FB5B /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B1E98BF32A8620BB0041FB5B /* Protocols.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		B1E98BF52A8621270041FB5B /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				B1E98C0E2A86236E0041FB5B /* Async Await */,
+				B1E98C032A8622950041FB5B /* Combine */,
+				B1E98BFC2A8621EB0041FB5B /* Callback */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		B1E98BFC2A8621EB0041FB5B /* Callback */ = {
+			isa = PBXGroup;
+			children = (
+				B1E98BF62A8621400041FB5B /* CallbackToCallbackAdapter.swift */,
+				B1E98BF82A86217F0041FB5B /* CallbackToCombineAdapter.swift */,
+				B1E98BFA2A8621D70041FB5B /* CallbackToAsyncAwaitAdapter.swift */,
+			);
+			path = Callback;
+			sourceTree = "<group>";
+		};
+		B1E98BFD2A8622100041FB5B /* Combine Flow */ = {
+			isa = PBXGroup;
+			children = (
+				B1E98BFE2A8622300041FB5B /* CombineNetworkService.swift */,
+			);
+			path = "Combine Flow";
+			sourceTree = "<group>";
+		};
+		B1E98C002A86225F0041FB5B /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				B1E98C012A86226C0041FB5B /* Enums.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		B1E98C032A8622950041FB5B /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				B1E98C042A8622A10041FB5B /* CombineToCallbackAdapter.swift */,
+				B1E98C062A8622D90041FB5B /* CombineToCombineAdapter.swift */,
+				B1E98C082A8622FA0041FB5B /* CombineToAsyncAwaitAdapter.swift */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
+		B1E98C0B2A8623310041FB5B /* Async Await Flow */ = {
+			isa = PBXGroup;
+			children = (
+				B1E98C0C2A86234C0041FB5B /* AsyncAwaitNetworkService.swift */,
+			);
+			path = "Async Await Flow";
+			sourceTree = "<group>";
+		};
+		B1E98C0E2A86236E0041FB5B /* Async Await */ = {
+			isa = PBXGroup;
+			children = (
+				B1E98C0F2A86237A0041FB5B /* AsyncAwaitToCallbackAdapter.swift */,
+				B1E98C112A8623940041FB5B /* AsyncAwaitToCombineAdapter.swift */,
+				B1E98C132A8623BC0041FB5B /* AsyncAwaitToAsyncAwaitAdapter.swift */,
+			);
+			path = "Async Await";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +383,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1E98C072A8622D90041FB5B /* CombineToCombineAdapter.swift in Sources */,
+				B1E98BF72A8621400041FB5B /* CallbackToCallbackAdapter.swift in Sources */,
+				B1E98BFB2A8621D70041FB5B /* CallbackToAsyncAwaitAdapter.swift in Sources */,
+				B1E98C102A86237A0041FB5B /* AsyncAwaitToCallbackAdapter.swift in Sources */,
 				B1E98BC12A861F910041FB5B /* ViewController.swift in Sources */,
+				B1E98C092A8622FA0041FB5B /* CombineToAsyncAwaitAdapter.swift in Sources */,
 				B1E98BBD2A861F910041FB5B /* AppDelegate.swift in Sources */,
 				B1E98BBF2A861F910041FB5B /* SceneDelegate.swift in Sources */,
+				B1E98BF42A8620BB0041FB5B /* Protocols.swift in Sources */,
+				B1E98C0D2A86234C0041FB5B /* AsyncAwaitNetworkService.swift in Sources */,
+				B1E98BFF2A8622300041FB5B /* CombineNetworkService.swift in Sources */,
+				B1E98C052A8622A10041FB5B /* CombineToCallbackAdapter.swift in Sources */,
+				B1E98C142A8623BC0041FB5B /* AsyncAwaitToAsyncAwaitAdapter.swift in Sources */,
+				B1E98C122A8623940041FB5B /* AsyncAwaitToCombineAdapter.swift in Sources */,
+				B1E98BF12A8620870041FB5B /* UserModel.swift in Sources */,
+				B1E98BEE2A86203D0041FB5B /* CallbackNetworkService.swift in Sources */,
+				B1E98BF92A86217F0041FB5B /* CallbackToCombineAdapter.swift in Sources */,
+				B1E98C022A86226C0041FB5B /* Enums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
